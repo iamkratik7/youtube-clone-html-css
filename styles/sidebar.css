@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+.sidebar {
+  position: fixed;
+  top: 54px;
+  left: 0px;
+  bottom: 0px;
+  width: 72px;
+  background-color: #fff;
+  border-color: #fff;
+  font-family: "Roboto", sans-serif;
+  z-index: 101;
+  padding-top: 8px;
+}
+@media (max-width: 400px) {
+  .sidebar {
+    opacity: 0;
+  }
+}
+
+.sidebar-link {
+  height: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sidebar-link:hover {
+  background-color: lightgrey;
+}
+
+.sidebar-link img {
+  width: 25px;
+  margin-bottom: 6px;
+}
+
+.sidebar-content-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}
